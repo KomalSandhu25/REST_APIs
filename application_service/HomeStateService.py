@@ -2,7 +2,6 @@ import domain.HomeState as homeState
 from abc import ABC, abstractmethod
 
 class HomeStateService:
-
     @abstractmethod
     def update(present, occupied):
         pass
